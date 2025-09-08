@@ -2,7 +2,7 @@
 
 ![Demo](data/demo.gif)
 
-Real‑time license plate detection and reading. Uses **Ultralytics YOLOv8** for plate detection and **EasyOCR** to read the characters. Works with a webcam, video files, or single images. Saves crops and a CSV of recognized text + confidences.
+Real‑time license plate detection and reading. Uses **Ultralytics YOLOv8** for plate detection and **EasyOCR** to read characters. Works with a webcam, video files, or single images. Saves crops and a CSV of recognized text + confidences.
 
 ---
 

@@ -35,7 +35,7 @@ def test_plate_detector_construct_and_call(monkeypatch):
         pytest.skip("PlateDetector not implemented")
 
     # Patch YOLO so we don't load real weights
-    monkeypatch.setattr(d, "YOLO", _FakeYOLO, raising=True)
+    monkeypatch.setattr(d, "YOLO", _FakeYOLO, raising=True) 
 
     pd = d.PlateDetector(weights="does_not_matter.pt", device="cpu", imgsz=640, conf=0.5)
     # PlateDetector should have a model attribute using FakeYOLO
